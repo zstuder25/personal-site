@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 /* default values */
-
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 0, 0, 0;
   --background-end-rgb: 255, 255, 255;
@@ -16,14 +15,18 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+} */
+
+html {
+  height: 100%;
+  font-family: var(--font-inter);
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom right,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  height: 100%;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-mont);
+  color: rgb(15 23 42);
 }
