@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${montserrat.variable} font-sans flex flex-row p-8 bg-gradient-to-br from-emerald-300 via-teal-800 to-stone-600 bg-fixed text-slate-600`}
+        className={`${inter.variable} ${montserrat.variable} font-sans flex flex-row p-8 bg-gradient-to-br from-emerald-300 via-teal-800 to-stone-600 bg-fixed`}
       >
         <SideNav>
           <SideNavItem text="About Me" href="/" />
