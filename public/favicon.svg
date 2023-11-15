@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="40" width="40">
+    <style>
+        .text {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+        }
+    </style>
+    <circle cx="50%" cy="50%" r="18" stroke="black" stroke-width="2" fill="white" />
+    <text x="50%" y="55%" class="text" dominant-baseline="middle" text-anchor="middle" fill="black">ZS</text>
+</svg>
